@@ -67,3 +67,14 @@
 // let name = prompt("Enter name")
 
 // console.log(`${name} is ${age} years old`)
+
+
+
+let give = "     help!      ";
+
+let msg = console.log(give.trim().toLocaleUpperCase());
+
+let str = "apnacollege";
+
+console.log(str.slice(4).replace("l","t"));
+console.log(str.replace("l","t"))
