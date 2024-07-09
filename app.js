@@ -70,11 +70,30 @@
 
 
 
-let give = "     help!      ";
+// let give = "     help!      ";
 
-let msg = console.log(give.trim().toLocaleUpperCase());
+// let msg = console.log(give.trim().toLocaleUpperCase());
 
-let str = "apnacollege";
+// let str = "apnacollege";
 
-console.log(str.slice(4).replace("l","t"));
-console.log(str.replace("l","t"))
+// console.log(str.slice(4).replace("l","t"));
+// console.log(str.replace("l","t"))
+
+// let start = ["jan", "june", "march", "august"];
+
+// start.splice(0,1,"july");
+// console.log(start)
+
+
+// let arr = ['c' , 'c++', 'html', 'js' , 'j', 'python', 'c#', 'css']
+
+// console.log(arr.reverse().indexOf("js"));
+
+// let arr = [7,9,0,-2];
+// console.log(arr.slice(1))
+
+// let arr = "";
+// console.log(arr[0])
+
+let arr = [];
+console.log(typeof arr)
