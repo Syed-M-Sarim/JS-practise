@@ -95,5 +95,18 @@
 // let arr = "";
 // console.log(arr[0])
 
-let arr = [];
-console.log(typeof arr)
+// let arr = [];
+// console.log(typeof arr)
+
+let myArray = [
+    ["mango", "banana", "orange"],
+    ["olpers", "milkpak", "nurpur"]
+  ];
+  
+  for (let i = 0; i < myArray.length; i++) {
+    console.log(i, myArray[i].length);
+    for (let j = 0; j < myArray[i].length; j++) {
+      console.log(`j=${j}  ${myArray[i][j]}`);
+    }
+  }
+  
