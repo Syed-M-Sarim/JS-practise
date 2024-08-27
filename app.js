@@ -98,15 +98,44 @@
 // let arr = [];
 // console.log(typeof arr)
 
-let myArray = [
-    ["mango", "banana", "orange"],
-    ["olpers", "milkpak", "nurpur"]
-  ];
+// let myArray = [
+//     ["mango", "banana", "orange"],
+//     ["olpers", "milkpak", "nurpur"]
+//   ];
   
-  for (let i = 0; i < myArray.length; i++) {
-    console.log(i, myArray[i].length);
-    for (let j = 0; j < myArray[i].length; j++) {
-      console.log(`j=${j}  ${myArray[i][j]}`);
-    }
+//   for (let i = 0; i < myArray.length; i++) {
+//     console.log(i, myArray[i].length);
+//     for (let j = 0; j < myArray[i].length; j++) {
+//       console.log(`j=${j}  ${myArray[i][j]}`);
+//     }
+//   }
+
+
+let todo = [];
+let cmd = prompt("Enter command! ");
+
+while (true){
+  if (cmd == "quit"){
+    console.log("Leaving")
+    break;
   }
-  
+  if (cmd == "add"){
+   let task = prompt(`Enter todo`)
+   todo.push(task)
+   console.log("task added")
+  }
+  else if (cmd == "list"){
+    console.log(`----------------`)
+  for(let i=0; i< todo.length; i++){
+    console.log(i, todo[i]);
+  }
+}
+  else if(cmd == "delete"){
+    let idx = prompt("Enter number to delete a todo");
+    todo.splice(idx,1);
+    console.log("task deleted");
+  }
+  else{
+    console.log("Wrong cmd")
+  }
+}
