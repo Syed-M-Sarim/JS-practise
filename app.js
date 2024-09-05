@@ -150,13 +150,31 @@
 // }
 // console.log(arr)
 
-let number = 287152;
-let count = 0;
+// let number = 287152;
+// let count = 0;
 
-let copy = number;
+// let copy = number;
 
-while(copy>0){
-  count++
-  copy = Math.floor(copy/10); 
-}
-console.log(count);
+// while(copy>0){
+//   count++
+//   copy = Math.floor(copy/10); 
+// }
+// console.log(count);
+
+// const userInput = +prompt("Enter number")
+// const randomNumber = Math.floor(Math.random() * 100 + 1)
+
+// if (userInput == randomNumber){
+//   console.log("Answer is correct")
+// }
+// else{
+//   console.log("Wrong answer")
+// }
+
+const carDetails = {
+  car : "City",
+  model : 2016,
+  color : "Silver"
+};
+carDetails.month = "December"
+document.write(carDetails)
