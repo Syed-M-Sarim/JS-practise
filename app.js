@@ -111,31 +111,52 @@
 //   }
 
 
-let todo = [];
-let cmd = prompt("Enter command! ");
+// let todo = [];
+// let cmd = prompt("Enter command! ");
 
-while (true){
-  if (cmd == "quit"){
-    console.log("Leaving")
-    break;
-  }
-  if (cmd == "add"){
-   let task = prompt(`Enter todo`)
-   todo.push(task)
-   console.log("task added")
-  }
-  else if (cmd == "list"){
-    console.log(`----------------`)
-  for(let i=0; i< todo.length; i++){
-    console.log(i, todo[i]);
-  }
+// while (true){
+//   if (cmd == "quit"){
+//     console.log("Leaving")
+//     break;
+//   }
+//   if (cmd == "add"){
+//    let task = prompt(`Enter todo`)
+//    todo.push(task)
+//    console.log("task added")
+//   }
+//   else if (cmd == "list"){
+//     console.log(`----------------`)
+//   for(let i=0; i< todo.length; i++){
+//     console.log(i, todo[i]);
+//   }
+// }
+//   else if(cmd == "delete"){
+//     let idx = prompt("Enter number to delete a todo");
+//     todo.splice(idx,1);
+//     console.log("task deleted");
+//   }
+//   else{
+//     console.log("Wrong cmd")
+//   }
+// }
+
+// let arr = [1,2,3,4,5,6,2,3]
+// let num = 2
+
+// for (let i = 0; i< arr.length; i++){
+//   if(arr[i] == num){
+//     arr.splice(i, 1)
+//   }
+// }
+// console.log(arr)
+
+let number = 287152;
+let count = 0;
+
+let copy = number;
+
+while(copy>0){
+  count++
+  copy = Math.floor(copy/10); 
 }
-  else if(cmd == "delete"){
-    let idx = prompt("Enter number to delete a todo");
-    todo.splice(idx,1);
-    console.log("task deleted");
-  }
-  else{
-    console.log("Wrong cmd")
-  }
-}
+console.log(count);
