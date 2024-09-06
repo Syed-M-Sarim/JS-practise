@@ -171,10 +171,16 @@
 //   console.log("Wrong answer")
 // }
 
-const carDetails = {
-  car : "City",
-  model : 2016,
-  color : "Silver"
-};
-carDetails.month = "December"
-document.write(carDetails)
+// const carDetails = {
+//   car : "City",
+//   model : 2016,
+//   color : "Silver"
+// };
+// carDetails.month = "December"
+// document.write(carDetails)
+
+function add(a,b){
+  return a + b
+}
+let sum = add(7,9)
+console.log(sum)
