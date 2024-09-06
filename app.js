@@ -179,8 +179,20 @@
 // carDetails.month = "December"
 // document.write(carDetails)
 
-function add(a,b){
-  return a + b
-}
-let sum = add(7,9)
-console.log(sum)
+// function add(a,b){
+//   return a + b
+// }
+// let sum = add(7,9)
+// console.log(sum)
+
+// const value = (a,b) =>{
+//   return a + b
+// } 
+// let sum =  value(6,8)
+// console.log(sum)
+
+let arr = [1,2,3,4,5]
+
+arr.forEach((val)=>{
+    console.log(val*val)
+})
