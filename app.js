@@ -263,8 +263,24 @@
 // vowels(str);
 
 
-function generateNumber() {
-    let number = Math.floor(Math.random() * 10 + 1);
-    console.log(number);
+// function generateNumber() {
+//     let number = Math.floor(Math.random() * 10 + 1);
+//     console.log(number);
+// }
+// generateNumber();
+
+
+const car = {
+    make: "Honda",
+    model: 2016,
+    varient: "1.3 ivtec",
+    color: "Silver",
+    getinfo() {
+        console.log(this.color);
+    }
 }
-generateNumber();
+
+function getModel(){
+    console.log(this.model)
+}
+getModel
