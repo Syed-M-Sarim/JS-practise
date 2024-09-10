@@ -191,8 +191,80 @@
 // let sum =  value(6,8)
 // console.log(sum)
 
-let arr = [1,2,3,4,5]
+// let arr = [1,2,3,4,5,6,7,8,9,10]
+// let num = 3;
 
-arr.forEach((val)=>{
-    console.log(val*val)
-})
+// function greaterNumber (arr,num){
+//     for (let i=0; i<arr.length; i++){
+//         if (arr[i] > num){
+//             console.log(`numbers: ${arr[i]}`)
+//         }
+//     }
+// }
+
+// greaterNumber(arr,num);
+
+// let str = "abcdabcdefgggh";
+
+// function getUnique(str) {
+//     let ans = "";
+//     for (let i = 0; i < str.length; i++) {
+//         let currChar = str[i];
+//         if (ans.indexOf(currChar) === -1) {
+//             ans += currChar;
+//         }
+//     }
+//     console.log("Unique characters:", ans);
+// }
+// console.log("Original string:", str);
+// getUnique(str);
+
+// function Countries() {
+//     let country1 = prompt("Enter 1st country name");
+//     let country2 = prompt("Enter 2nd country name");
+//     let country3 = prompt("Enter 3rd country name");
+
+//     // Assume the first country is the largest initially
+//     let largestCountry = country1;
+
+//     // Compare with country2
+//     if (country2.length > largestCountry.length) {
+//         largestCountry = country2;
+//     }
+
+//     // Compare with country3
+//     if (country3.length > largestCountry.length) {
+//         largestCountry = country3;
+//     }
+
+//     console.log(`The country with the longest name is: ${largestCountry}`);
+// }
+
+// Countries();
+
+// let str = "sarim";
+
+// function vowels(str) {
+//     let count = 0;
+//     for (let i = 0; i < str.length; i++) {  // Fixed typo 'lenght' to 'length'
+//         if (
+//             str.charAt(i) == "a" ||
+//             str.charAt(i) == "e" || 
+//             str.charAt(i) == "i" || 
+//             str.charAt(i) == "o" || 
+//             str.charAt(i) == "u"
+//         ) {
+//             count++;
+//         }
+//     }
+//     console.log(count);  // Moved outside the loop to print the final count
+// }
+
+// vowels(str);
+
+
+function generateNumber() {
+    let number = Math.floor(Math.random() * 10 + 1);
+    console.log(number);
+}
+generateNumber();
