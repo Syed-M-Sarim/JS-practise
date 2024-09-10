@@ -270,17 +270,61 @@
 // generateNumber();
 
 
-const car = {
-    make: "Honda",
-    model: 2016,
-    varient: "1.3 ivtec",
-    color: "Silver",
-    getinfo() {
-        console.log(this.color);
-    }
-}
+// const car = {
+//     make: "Honda",
+//     model: 2016,
+//     varient: "1.3 ivtec",
+//     color: "Silver",
+//     getinfo() {
+//         console.log(this.color);
+//     }
+// }
 
-function getModel(){
-    console.log(this.model)
-}
-getModel
+// function getModel(){
+//     console.log(this.model)
+// }
+// getModel()
+
+// const square = (n) => n**n;
+// console.log(square(2));
+
+// setInterval(()=>{
+//     console.log(`Hello World`)
+// },2000)
+
+
+// const average = (arr) => {
+//     let sum = 0;
+//     for (let number of arr){
+//         sum += number;
+//     }
+//     return sum / arr.length;
+// };
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(average(arr));
+
+
+// const Num = (n) => {
+//     if (n % 2 == 0){
+//         return `${n} is even`
+//     }
+//     else{
+//         return `${n} is odd`
+//     }
+// }
+
+// console.log(Num(60));
+
+// let lenght = 4 ;
+// function callBack(){
+//     console.log(this.message);
+// }
+// const object = {
+//     lenght: 5,
+//     method(callBack) {
+//         callBack();
+//     },
+// };
+
+// object.method(callBack, 1,2);
