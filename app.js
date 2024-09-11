@@ -328,3 +328,19 @@
 // };
 
 // object.method(callBack, 1,2);
+
+// let num  = [10,20,30,40,50,65];
+
+// let multiples = num.every((el) => el % 10 == 0)
+// console.log(`answers ${multiples}`)
+
+let arr = [1,4,8,7,9,95,0,6,5]
+
+let minimum = arr.reduce((min, el) => {
+    if( el< min){
+        return el
+    }else{
+        return min
+    }
+})
+console.log(minimum)
