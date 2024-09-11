@@ -334,13 +334,45 @@
 // let multiples = num.every((el) => el % 10 == 0)
 // console.log(`answers ${multiples}`)
 
-let arr = [1,4,8,7,9,95,0,6,5]
+// let arr = [1,4,8,7,9,95,0,6,5]
 
-let minimum = arr.reduce((min, el) => {
-    if( el< min){
-        return el
-    }else{
-        return min
-    }
-})
-console.log(minimum)
+// let minimum = arr.reduce((min, el) => {
+//     if( el< min){
+//         return el
+//     }else{
+//         return min
+//     }
+// })
+// console.log(minimum)
+
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+
+// let sum = arr.reduce((acc,el) => (acc+el))
+// console.log(`sum = ${sum}`)
+
+// let multiply = arr.reduce((acc,el)=> (acc*el))
+// console.log(`output = ${multiply}`)
+
+// let avg = arr.reduce((acc,el)=> (acc+el/10))
+// console.log(`avg = ${avg}`)
+
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+
+// let newArr = arr.map((arr) => arr + 5)
+// console.log(`Output = ${newArr}`)
+
+// let arr = ['hello'];
+
+// let capital = arr.map((arr) => console.log(arr.toUpperCase())
+// );
+
+// const doubleAndReturnArgs = (arr, ...args) => [
+//     ...arr,
+//     ...args.map((v) => v * 2),
+// ];
+
+// doubleAndReturnArgs([1,2,3], 4, 4);
+// doubleAndReturnArgs([2],10,4);
+
+// const mergeObjects = (obj1, obj2) => ({...obj1, ...obj2});
+// mergeObjects({a:1, b:2}, {c:3, d:4});
