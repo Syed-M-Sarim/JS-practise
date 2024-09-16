@@ -376,3 +376,24 @@
 
 // const mergeObjects = (obj1, obj2) => ({...obj1, ...obj2});
 // mergeObjects({a:1, b:2}, {c:3, d:4});
+
+let newBtn = document.createElement('button');
+newBtn.innerText = 'Click me!'
+newBtn.style.backgroundColor = 'red'
+document.body.appendChild(newBtn)
+
+newBtn.setAttribute('id', 'btn')
+const newElement = document.querySelector('#btn');
+newElement.innerHTML = 'username'
+newElement.style.backgroundColor = 'blue';
+newElement.style.color = 'white';
+
+let heading = document.createElement('h1');
+heading.innerText = 'DOM PRACTISE';
+document.body.appendChild(heading);
+heading.style.color = 'purple';
+heading.style.textDecoration = 'underline';
+
+let para = document.createElement('p');
+para.innerHTML = '<b>Practising</b> JS DOM';
+document.body.appendChild(para)
